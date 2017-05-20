@@ -1,0 +1,14 @@
+applications:
+  - name: spring-rest-for-postgres
+    buildpack: https://github.com/cloudfoundry/java-buildpack.git#v3.13
+    path: target/crudOps-0.0.1-SNAPSHOT.jar
+    memory: 512M
+    disk_quota: 512M
+    timeout : 180
+    services:
+        - Nivi-db        
+
+env:
+   MEMORY_LIMIT : 358M
+   SPRING_PROFILES_ACTIVE : cloud
+   

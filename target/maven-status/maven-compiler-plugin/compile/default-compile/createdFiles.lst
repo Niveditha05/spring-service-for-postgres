@@ -1,0 +1,7 @@
+com/pg/crudOps/EmployeeController.class
+com/pg/crudOps/Application.class
+com/pg/crudOps/EmployeeOps.class
+com/pg/crudOps/EmployeeOpsInterface.class
+com/pg/crudOps/AppConfig.class
+com/pg/crudOps/Employee.class
+com/pg/crudOps/EmployeeRepository.class
